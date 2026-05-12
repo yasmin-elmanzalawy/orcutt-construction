@@ -74,7 +74,7 @@ export default function FeaturedProjects({
 
               {images.map((src, i) => (
                 <div key={i} className="min-w-full flex justify-center">
-                  <div className="w-[80%] rounded-2xl overflow-hidden bg-gray-800">
+                  <div className="w-[90%] h-[80%] rounded-2xl overflow-hidden bg-gray-800">
                     <img
                       src={src}
                       className="w-full h-full object-cover"
@@ -102,7 +102,7 @@ export default function FeaturedProjects({
             {/* ================= PREV ================= */}
             <button
               onClick={prev}
-              className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4"
+              className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-2"
             >
               <div className="w-10 h-10 flex items-center justify-center rounded-full bg-black/30 hover:bg-black/50 transition">
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,7 +114,7 @@ export default function FeaturedProjects({
             {/* ================= NEXT ================= */}
             <button
               onClick={next}
-              className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4"
+              className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-2"
             >
               <div className="w-10 h-10 flex items-center justify-center rounded-full bg-black/30 hover:bg-black/50 transition">
                 <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
