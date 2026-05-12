@@ -71,7 +71,7 @@ export default function Testimonials() {
             What Clients Say
           </h2>
 
-          <p className="mt-5 text-gray-600 cairo">
+          <p className="mt-5 text-gray-600 cairo mb-3">
             Real feedback from real clients
           </p>
 

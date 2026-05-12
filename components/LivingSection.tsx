@@ -6,9 +6,9 @@ export default function LivingSection() {
   return (
     <>
       {/* ================= DIVIDER (TOP OF SECTION) ================= */}
-      <div className="relative w-full overflow-hidden leading-none">
+      <div className="relative w-full overflow-hidden leading-none ">
         <svg
-          className="block w-full h-[60px] bg-[#1C1C1C]"
+          className="block w-full h-[60px] bg-[#1C1C1C]  -mb-[1px]"
           viewBox="0 0 100 100"
           preserveAspectRatio="none"
         >

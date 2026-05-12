@@ -18,16 +18,16 @@ export default function Footer() {
             transition={{ duration: 0.7 }}
             className="space-y-4"
           >
-            <h2 className="text-3xl md:text-4xl font-light">
+            <h2 className="text-3xl md:text-4xl font-light russo">
               Contact Us
             </h2>
 
-            <div className="text-gray-400 space-y-2 text-lg">
+            <div className="text-gray-400 space-y-2 text-lg cairo">
               <p className="hover:text-white transition">
                 (585) 831-9388
               </p>
 
-              <p className="hover:text-white transition">
+              <p className="hover:text-white transition cairo">
                 connor@orcuttconstructionllc.com
               </p>
             </div>
@@ -41,7 +41,7 @@ export default function Footer() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="flex md:justify-end items-end"
           >
-            <p className="text-gray-500 text-sm md:text-right max-w-sm leading-relaxed">
+            <p className="text-gray-500 text-sm md:text-right max-w-sm leading-relaxed cairo">
               Dedicated to delivering high-quality construction services with
               transparency, trust, and precision from start to finish.
             </p>
@@ -49,10 +49,10 @@ export default function Footer() {
         </div>
 
         {/* DIVIDER */}
-        <div className="w-full h-[1px] bg-white/10 my-10" />
+        <div className="w-full h-[1px] bg-white/10 my-10 " />
 
         {/* BOTTOM */}
-        <div className="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-6 cairo">
           
           <p className="text-gray-500 text-sm">
             © {new Date().getFullYear()} 2026 Created by Yasmin Elmanzalawy
